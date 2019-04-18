@@ -1,0 +1,40 @@
+{
+  "name": "nivo-workshop",
+  "version": "1.0.0",
+  "description": "A small comprehensive workshop to learn some basic principles of nivo",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoAC/nivo-workshop.git"
+  },
+  "keywords": [],
+  "author": "Eduardo Aparicio Cardenes",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/EduardoAC/nivo-workshop/issues"
+  },
+  "homepage": "https://github.com/EduardoAC/nivo-workshop#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "@nivo/line": "^0.56.0",
+    "@nivo/pie": "^0.56.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.8.4"
+  }
+}
